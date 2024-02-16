@@ -21,7 +21,7 @@ const Navbar: FC<NavbarProps> = ({}) => {
             Find Jobs
           </span>
           <span className="font-medium text-gray-400 cursor-pointer">
-            Browse Compannies
+            Browse Companies
           </span>
         </div>
       </div>
