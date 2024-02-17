@@ -20,3 +20,11 @@ export type filterOptionType = {
   name: string;
   items: optionType[];
 };
+
+export type companyType = {
+  image: string;
+  totalJobs: number;
+  name: string;
+  description: string;
+  categories: string;
+};
