@@ -1,10 +1,10 @@
+import FormModalApply from "@/components/organisms/FormModalApply";
 import { Badge } from "@/components/ui/badge";
-import { Button } from "@/components/ui/button";
 import { Progress } from "@/components/ui/progress";
 import { Separator } from "@/components/ui/separator";
 import Image from "next/image";
 import Link from "next/link";
-import React, { FC } from "react";
+import { FC } from "react";
 import { BiCategory } from "react-icons/bi";
 
 interface DetailJobPageProps {}
@@ -56,9 +56,7 @@ const DetailJobPage: FC<DetailJobPageProps> = ({}) => {
               </div>
             </div>
           </div>
-          <Button size="lg" className="text-lg px-12 py-6">
-            Apply
-          </Button>
+          <FormModalApply />
         </div>
       </div>
       <div className="px-32 py-16 flex flex-row items-start gap-10">
